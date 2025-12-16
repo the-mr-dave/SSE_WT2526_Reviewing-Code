@@ -1,0 +1,13 @@
+{
+  "alpha": 1.0,
+  "L": 1.0,
+  "nx": 101,
+  "dt": 0.00005,
+  "t_final": 0.1,
+  "output_dir": "results_heat_1d",
+  "initial_condition": {
+    "type": "gaussian",
+    "center": 0.5,
+    "sigma": 0.08
+  }
+}

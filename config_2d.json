@@ -1,0 +1,17 @@
+{
+  "alpha": 1.0,
+  "Lx": 1.0,
+  "Ly": 1.0,
+  "nx": 51,
+  "ny": 51,
+  "dt": 0.00005,
+  "t_final": 0.05,
+  "output_dir": "results_heat_2d",
+  "initial_condition": {
+    "type": "gaussian",
+    "center_x": 0.5,
+    "center_y": 0.5,
+    "sigma_x": 0.1,
+    "sigma_y": 0.1
+  }
+}
